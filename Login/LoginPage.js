@@ -1,5 +1,3 @@
-// cypress/support/pageObjects/LoginPage.js
-
 class LoginPage {
   usernameField = 'input[name="username"]';
   passwordField = 'input[name="password"]';
