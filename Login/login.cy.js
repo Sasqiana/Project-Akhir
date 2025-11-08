@@ -83,7 +83,7 @@ describe('OrangeHRM Login Feature - With POM & Intercept', () => {
     });
 
     loginPage.verifyDashboard();
-    loginPage.verifyProfileName('mandaTest964bfTest7b3b5 userUserb6287User7690b'); // ganti sesuai nama di dashboard
+    loginPage.verifyProfileName('mandaTest964bfTest7b3b5 userUserb6287User7690b'); 
   });
 
   it('TC10 - Tetap login setelah refresh halaman dashboard', () => {
